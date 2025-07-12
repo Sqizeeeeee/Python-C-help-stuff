@@ -1,0 +1,18 @@
+Benefits of implementing a stack using a singly linked list
+
+- Dynamic memory allocation: The size of the stack can be increased or decreased dynamically by adding or removing nodes from the linked list, without the need to allocate a fixed amount of memory for the stack upfront.
+- Efficient memory usage: Since nodes in a singly linked list only have a next pointer and not a prev pointer, they use less memory than nodes in a doubly linked list.
+- Easy implementation: Implementing a stack using a singly linked list is straightforward and can be done using just a few lines of code.
+- Versatile: Singly linked lists can be used to implement other data structures such as queues, linked lists, and trees.
+
+
+
+Real time examples of stack
+
+Stacks are used in various real-world scenarios where a last-in, first-out (LIFO) data structure is required. Here are some examples of real-time applications of stacks:
+
+- Function Call Stack: When a function is called, its return address and parameters are pushed onto the stack. The stack ensures functions execute and return in reverse order..
+- Undo/Redo Operations: In apps like text or image editors, actions are pushed onto a stack. Undo removes the last action, while redo restores it.
+- Browser History: Browsers use stacks to track visited pages. Visiting a page pushes its URL onto the stack, and the "Back" button pops the last URL to go to the previous page.
+- Expression Evaluation: In compilers, expressions are converted to postfix notation and evaluated using a stack.
+- Call Stack in Recursion: Recursive function calls are pushed onto the stack. Once recursion ends, the stack is popped to return to the previous function call.

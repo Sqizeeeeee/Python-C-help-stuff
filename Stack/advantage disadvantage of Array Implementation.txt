@@ -1,0 +1,11 @@
+Advantages of Array Implementation:
+
+- Easy to implement.
+- Memory is saved as pointers are not involved.
+
+
+
+Disadvantages of Array Implementation:
+
+- It is not dynamic i.e., it doesn’t grow and shrink depending on needs at runtime. [But in case of dynamic sized arrays like vector in C++, list in Python, ArrayList in Java, stacks can grow and shrink with array implementation as well]. But with dynamic sized arrays, we get amortized time complexity as O(1), not the worst case. If we use linked list, we get worst case time complexities as O(1).
+- The total size of the stack must be defined beforehand.
